@@ -23,7 +23,7 @@ if(isset($_POST['username'])){
        header("Location: index.html"); exit;
     }
     
-    echo " You Have Entered Incorrect Password";
+    echo " U heeft het verkeerde wachtwoord ingevult";
     exit();
  
  }
