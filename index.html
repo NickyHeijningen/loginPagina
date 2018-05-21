@@ -1,0 +1,55 @@
+<html>
+	<head>
+    <meta charset="UTF-8">
+	<title> HomePage  </title>
+        
+       <link rel="stylesheet" href="homepage.css">
+
+       <script type="text/javascript" src="path/to/my-scirpt.js" async></script>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+       <script src="/js/my.js"></script>
+
+	</head>
+    
+    <body>
+        <div class="home-page">
+        <div class="form">
+            <form class="home-form">
+                <button>Gebruiker toevoegen</button>
+                <button>Gebruikers bekijken</button>
+                <button>Uitloggen</button>
+<!--
+                <input type="button" name= "button" value="Gebruiker toevoegen" onclick="myFunction()" />
+                <input type="button" name= "button" value="Gebruikers bekijken" onclick="myFunction()" />
+                <input type="button" name= "button" value="Uitloggen" onclick="myFunction()" />
+-->
+            </form>
+        </div>
+        </div>
+   
+
+       <script language="javascript">
+           function myFunction(){
+               window.location.href = "login.html";
+           }
+
+       </script>
+        
+       <script language="javascript">
+            $(function(){
+                $("button").on({
+                    mouseover:function(){
+                        $(this).css({
+                            left:(Math.random()*600)+"px",
+                            top:(Math.random()*400)+"px",
+                        });
+                    }
+                });
+            });
+        
+        </script>
+
+    
+    </body>
+
+</html>
