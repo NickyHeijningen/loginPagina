@@ -22,6 +22,6 @@
         header("Location: login.html"); exit;
 
     } else {
-        echo("Niet gelukt");
+        echo("Het registreren is mislukt");
       }
 ?>
